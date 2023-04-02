@@ -1,0 +1,169 @@
+/*  */
+.navbar {
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  float: left;
+  font-size: 2.8rem;
+  font-weight:bolder;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+/* we Add padding to header */
+header {
+  padding: 20px 0;
+}
+
+
+/*for section  */
+.interior-design-section {
+  padding: 100px 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0)
+}
+
+/* aboutus */
+.about-us-section {
+  padding: 100px 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+}
+
+.about-us-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-us-description {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.img-fluid{
+  filter: grayscale(100%);
+  }
+
+  .img-fluid:hover{
+    filter: grayscale(0%);
+    }
+
+    /* for about us page */
+    /* Global styles */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+h1 {
+	margin: 0;
+}
+
+nav ul {
+	margin: 10;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	padding: 40px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+/* 
+Page-specific styles */
+main p {
+	line-height: 1.5;
+	font-size: 1.1em;
+	margin-bottom: 100px;
+}
+
+div#wrapper{
+  margin: 25px, auto 0px auto;
+  width: 40%;
+  height: inherit;
+  
+}
+div#wrapper h1{
+  display: block;
+  background-color: #333;
+  color: rgb(85, 161, 161);
+  text-align: center;
+  line-height: 75px;
+  border-radius: 20px 20px 0px 0px;
+}
+div#wrapper img{
+  width: 100%;
+  border-radius: 0px 0px 20px 20px;
+  cursor: pointer;
+}
+div#box1, {
+  
+  width: 100%;
+  float: left;
+  margin-top: 25px;
+}
+div#box2{
+  
+  width: 100%;
+  
+  margin-top: 25px;
+
+}
